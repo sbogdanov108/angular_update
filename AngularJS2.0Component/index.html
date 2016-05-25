@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>AngularJS 2.0 App</title>
+
+  <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+  <!-- 1. Подключение библиотек -->
+  <!-- Для работы IE требуется полифил -->
+  <script src="node_modules/es6-shim/es6-shim.min.js"></script>
+  <script src="node_modules/angular2/es6/dev/src/testing/shims_for_IE.js"></script>
+  <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
+  <script src="node_modules/rxjs/bundles/Rx.umd.js"></script>
+  <script src="node_modules/angular2/bundles/angular2-all.umd.js"></script>
+
+  <!-- 2. Подключаем наши модули -->
+  <script src='app/app.component.js'></script>
+  <script src='app/main.js'></script>
+</head>
+
+<!-- 3. Выводим приложение -->
+<body>
+
+<my-comp>Загрузка...</my-comp>
+
+</body>
+</html>
